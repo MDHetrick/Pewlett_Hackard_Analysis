@@ -145,3 +145,17 @@ WHERE fighteraircraft < 1;
 
 
 SELECT AVG (totalmilitarypersonnel)
+
+--Joining
+SELECT 
+    -- columns you want
+    players.first_name, players.last_name, players.hand, matches.loser_rank
+FROM 
+    -- source 1 tabletable
+    matches
+INNER JOIN 
+    -- second table
+    players 
+ON 
+    -- column you want to match - columns in common between the two tables
+    players.player_id=matches.loser_id
