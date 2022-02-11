@@ -69,26 +69,31 @@ Employees are eligible for the mentorship program if they were born in 1965
 An important consideration for hiring of future employees is salary. While it is beneficial to consider tenure when determining salary, the level of position is also important. It may be difficult to recruit new employees and encourage current employees to take on more responsibility if the compensation package is inadquate. The table below indicates that there is little difference in the pay of employees of different job levels. 
 
 **Average Salary by Job Title**
+
+
 ![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Salary_by_title.png)
 
 
 ### Replacement Summary by Position Category
 
-**Manager**
+#### Manager
 - A query was run to determine the previous roles held by employees currently employed as manager. 
   - All employees currently employed as manager held at least one role within the company prior to becoming manager.
-  - Previous roles included the following: Senior Staff, Senior Engineer, Technique Leader, and Staff
+  - Previous roles included the following: Senior Staff, Senior Engineer, Technique Leader, and Staff, with Senior Staff being the most common
   - With this information, there are many potential options for future managers.
 
-![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Previous_roles_current_mgr.png)
+**Count of All Roles Held by Current Managers**
 
-**Engineer**
+
+![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Count_prev_mgr_roles.png)
+
+#### Engineer
 - If all the eligible senior engineers retired, there would be 60,023 senior engineers. The employees with the current title of engineer could be trained and promoted to senior engineer. 
 - If all the engineers retired and the remainder (21,968 employees) were promoted to senior engineer, there would be a massive employment gap. Some of the assistant engineers could be promoted, but after retirement there would only be 2,498 remaining assistant engineers to fill those positions. Senior engineers should begin training engineers, and engineers should begin trainig assistant engineers so there is no gap in coverage.
 - The company should begin recruitment activities for assistant engineers, engineers, and possibly senior engineers the current engineering staff are not desirable candidates for promotion. The average salary for a senior engineer is $48,510, $48,524 for an engineer, and $47,725 for an assistant engineer. The company may need to adjust pay scales to incentivize more responsibility. 
 
 
-**Staff**
+#### Staff
 - If all the eligible senior staff retired, there would be 57,098 remaining senior staff. If the 17,890 staff members remaining after those eligible retired were eligible for transition to senior staff, there would be many openings in staff. Senior staff should begin training staff so there is no gap in coverage.
 - The company should begin recruitment activities for staff, and possibly senior staff if the current staff members are not desirable candidates for promotion.
 - The average staff salary is $58,327, and the average senior staff salary is $58,481. The company should consider adjusting pay scales to incentivize more responsibility
