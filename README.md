@@ -8,6 +8,12 @@ Employees are eligible for retirement if they were born between 1952 and 1955. N
 - "Senior Engineer" and "Senior Staff" are the titles with the most retirement-eligible employees (25,916, and 24,926 employees, respectively)
 - 2,293 retirement-eligible employees started their current position in 2002. This is the most recent start year for any retirement-eligible employee
 - Just two employees with the title "Manager" are eligible for retirement. Both became manager in 1991.
+
+**Total Employees and Retiring Employees By Title**
+
+
+![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/emp_by_title.png)
+
 #### Engineers
 - In the engineering field, there are three levels: Senior Engineer, Engineer, and Assistant Engineer
   - There are 85,939 Senior Engineers; 25,916 of who are eligible for retirement
@@ -48,7 +54,7 @@ Employees are eligible for the mentorship program if they were born in 1965
 **Potential Mentors by Position**
 
 
-![IMAGE]employeesinrolesince1990
+![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Emp_by_title_from1990.png)
 
 
 - **If the employees identified as being in the mentorship program are to be mentees:** people who have been in their current position for the fewest number of years could be considered. The most recent start date is 2002, so if we include all employees in their position since 2000, we have 34,362 employees eligible to be mentored.
@@ -57,10 +63,14 @@ Employees are eligible for the mentorship program if they were born in 1965
 **Potential Mentees by Position**
 
 
-![IMAGE]employeesinrolesince2000
+![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Emp_by_title_from2000.png)
 
+### Additional Considerations
+An important consideration for hiring of future employees is salary. While it is beneficial to consider tenure when determining salary, the level of position is also important. It may be difficult to recruit new employees and encourage current employees to take on more responsibility if the compensation package is inadquate. The table below indicates that there is little difference in the pay of employees of different job levels. 
 
-- If employees are required to participate in the mentorship program in order to be promoted to either manager, senior staff, or senior engineer positions, the company will not have enough staff to fill senior engineer positions, although there will be a large pool to draw from for manager positions.
+**Average Salary by Job Title**
+![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Salary_by_title.png)
+
 
 ### Replacement Summary by Position Category
 
@@ -69,7 +79,9 @@ Employees are eligible for the mentorship program if they were born in 1965
   - All employees currently employed as manager held at least one role within the company prior to becoming manager.
   - Previous roles included the following: Senior Staff, Senior Engineer, Technique Leader, and Staff
   - With this information, there are many potential options for future managers.
- 
+
+![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Previous_roles_current_mgr.png)
+
 **Engineer**
 - If all the eligible senior engineers retired, there would be 60,023 senior engineers. The employees with the current title of engineer could be trained and promoted to senior engineer. 
 - If all the engineers retired and the remainder (21,968 employees) were promoted to senior engineer, there would be a massive employment gap. Some of the assistant engineers could be promoted, but after retirement there would only be 2,498 remaining assistant engineers to fill those positions. Senior engineers should begin training engineers, and engineers should begin trainig assistant engineers so there is no gap in coverage.
