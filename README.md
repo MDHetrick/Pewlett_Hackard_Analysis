@@ -16,20 +16,20 @@ Employees are eligible for retirement if they were born between 1952 and 1955. N
 
 #### Engineers
 - In the engineering field, there are three levels: Senior Engineer, Engineer, and Assistant Engineer
-  - There are 85,939 Senior Engineers; 25,916 of who are eligible for retirement
-  - There are 30,983 Engineers; 9,285 of who are eligible for retirement
-  - There are 3,588 Assistant Engineers; 1,090 of which are eligible for retirement
+  - Of the 85,939 Senior Engineers, 25,916 are eligible for retirement
+  - Of the 30,983 Engineers, 9,285 are eligible for retirement
+  - Of the 3,588 Assistant Engineers, 1,090 are eligible for retirement
 
 #### Staff
 - In the "Staff" field, there are two levels: Staff and Senior Staff
-  - There are 82,024 Senior Staff; 24,926 of who are eligible for retirement
-  - There are 25,526 Staff; 7,636 of who are eligible for retirement
+  - Of the 82,024 Senior Staff, 24,926 are eligible for retirement
+  - Of the 25,526 Staff, 7,636 are eligible for retirement
 
 
 #### Other Job Categories
-- There are 12,055 Technique Leaders; 3,603 of who are eligible for retirement
+- Of the 12,055 Technique Leaders, 3,603 are eligible for retirement
   - The average technique leader salary is $48,094
-- There 9 managers; 2 of who are eligible for retirement
+- Of the 9 managers, 2 are eligible for retirement
   - The average manager salary is $59,612   
 
 ### Employees Eligible for Mentorship Program
