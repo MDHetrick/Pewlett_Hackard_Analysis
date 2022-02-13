@@ -3,13 +3,13 @@ The purpose of this analysis is to evaluate Pewlett Hackard's readiness for upco
 
 ## Results
 ### Retirement-Eligible Employees by Title
-Employees are eligible for retirement if they were born between 1952 and 1955. None of the current employees were born before 1952
+Employees are eligible for retirement if they were born between 1952 and 1955. None of the current employees were born before 1952. Table 1 provides a list of all employees and retirement-eligible employees by title.
 - There are 72,459 employees eligible for retirement
 - "Senior Engineer" and "Senior Staff" are the titles with the most retirement-eligible employees (25,916, and 24,926 employees, respectively)
 - 2,293 retirement-eligible employees started their current position in 2002. This is the most recent start year for any retirement-eligible employee
 - Just two employees with the title "Manager" are eligible for retirement. Both became manager in 1991.
 
-**Total Employees and Retiring Employees By Title**
+**Table 1: Total Employees and Retiring Employees By Title**
 
 
 ![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/emp_by_title.png)
@@ -48,27 +48,18 @@ Employees are eligible for the mentorship program if they were born in 1965
 
 **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 - Without more information about the goals and scope of the mentorship program, it is difficult to incorporate that data into the analysis. However, as there are only 1549 employees identified from this, there are not enough employees to mentor the next generation of employees. The program will need to be expanded. Currently employees are eligible if they were born in the year 1965. It is unclear why this birth year makes an employee qualified, but there are likely ways to expand eligiblity. A more inclusive way to identify participants could potentially be length of time in current position.
-- **If the employees identified as being in the mentorship program are to be mentors:** to increase the number of mentors, we could include anyone who has been in their current position since before 1990. After functioning in a role for at least 20 years, the individual would likely be able to mentor unless he/she had performance issues. This change would include 18,914 employees.
+- To increase the number of participants, we could include anyone who has been in their current position since before 1990. After functioning in a role for at least 20 years, employees in good standing would likely be good candidates for mentorship. This change would include 18,914 employees. Table 3 provides a summary of employees in their current roles since 1990.
 
 
-**Potential Mentors by Position**
+**Table 2: Potential Mentors by Position - Expanded**
 
 
 ![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Emp_by_title_from1990.png)
 
-
-- **If the employees identified as being in the mentorship program are to be mentees:** people who have been in their current position for the fewest number of years could be considered. The most recent start date is 2002, so if we include all employees in their position since 2000, we have 34,362 employees eligible to be mentored.
-
-
-**Potential Mentees by Position**
-
-
-![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Emp_by_title_from2000.png)
-
 ### Additional Considerations
-An important consideration for hiring of future employees is salary. While it is beneficial to consider tenure when determining salary, the level of position is also important. It may be difficult to recruit new employees and encourage current employees to take on more responsibility if the compensation package is inadquate. The table below indicates that there is little difference in the pay of employees of different job levels. 
+An important consideration for hiring of future employees is salary. While it is beneficial to consider tenure when determining salary, the level of position is also important. It may be difficult to recruit new employees and encourage current employees to take on more responsibility if the compensation package is inadquate. Table 3 provides a summary of salary by job title. A key takeaway from this data is that there is little difference in the pay of employees of different job levels. 
 
-**Average Salary by Job Title**
+**Table 3: Average Salary by Job Title**
 
 
 ![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Salary_by_title.png)
@@ -77,12 +68,12 @@ An important consideration for hiring of future employees is salary. While it is
 ### Replacement Summary by Position Category
 
 #### Manager
-- A query was run to determine the previous roles held by employees currently employed as manager. 
+- A query was run to determine the previous roles held by employees currently employed as manager (Table 4).
   - All employees currently employed as manager held at least one role within the company prior to becoming manager.
   - Previous roles included the following: Senior Staff, Senior Engineer, Technique Leader, and Staff, with Senior Staff being the most common
   - With this information, there are many potential options for future managers.
 
-**Count of All Roles Held by Current Managers**
+**Table 4: Count of All Roles Held by Current Managers**
 
 
 ![IMAGE](https://github.com/MDHetrick/Pewlett_Hackard_Analysis/blob/main/Count_prev_mgr_roles.png)
